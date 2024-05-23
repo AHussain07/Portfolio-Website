@@ -80,7 +80,7 @@ li {
 }
 
 .text--purple {
-  color: #6030b1;
+  color: #003090;
 }
 
 section:nth-child(even) {
@@ -115,7 +115,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #003090;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -128,7 +128,7 @@ nav {
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: #003090;
   margin: 0 12px;
   font-weight: bold
 }
@@ -155,44 +155,19 @@ nav {
   text-align: center;
 }
 
-.about-me__picture--mask {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
-  margin-bottom: 28px;
-  animation: animate-profile-picture 800ms 200ms backwards;
-}
 
-@keyframes animate-profile-picture {
-  0% {
-    transform: scale(0);
-  }
-  80% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
-.about-me__picture {
-  width: 100%;
 
-  /* Improving my own picture */
-  transform: scale(1.5);
-  padding-top: 8px;
-}
+
 
 .about-me__info--title {
   margin-bottom: 16px;
-  animation: fade-up 650ms 400ms backwards;
+  animation: fade-up 650ms 200ms backwards;
 }
 .about-me__info--para {
   font-size: 20px;
   margin-bottom: 28px;
-  animation: fade-up 650ms 600ms backwards;
+  animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__link {
@@ -202,7 +177,7 @@ nav {
 }
 
 .about-me__links {
-  animation: fade-up 650ms 800ms backwards;
+  animation: fade-up 650ms 600ms backwards;
 }
 
 @keyframes fade-up {
