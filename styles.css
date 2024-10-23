@@ -287,7 +287,7 @@ nav {
 .project__img {
   width: 100%;
   transition: all 500ms ease;
-  object-fit: cover;
+  /* object-fit: cover; */
   /* filter: blur(10px); */
 }
 
@@ -298,8 +298,9 @@ nav {
   overflow: hidden;
   position: relative;
   animation: fade-up 650ms 400ms backwards;
-  height: 476px; /* Adjust this value to match your design */
-  width: 100%; /* Ensure the width is consistent */
+  height: 458px; 
+  width: 100%; 
+  
 }
 .project__wrapper:before {
   content: "";
@@ -441,7 +442,13 @@ footer {
     left: 30px;
     padding-right: 30px;
   }
-}
+
+  
+  
+  }
+
+
+
 
 /* SMALL PHONES */
 @media (max-width: 480px) {
@@ -478,4 +485,6 @@ footer {
     text-align: center;
     margin: 12px 0;
   }
+
+  
 }
